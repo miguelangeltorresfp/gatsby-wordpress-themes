@@ -1,0 +1,36 @@
+{
+  "name": "gatsby-wordpress-themes",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Gatsby WordPress Theme Project",
+  "main": "index.js",
+  "workspaces": [
+    "site",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspace site dev",
+    "build": "yarn workspace site build",
+    "serve": "yarn workspace site serve",
+    "clean": "yarn workspace site clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imranhsayed/gatsby-wordpress-theme.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-theme",
+    "gatsby-wordpress-theme",
+    "wordpress",
+    "react",
+    "javascript"
+  ],
+  "author": "Miguel Angel Torres",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imranhsayed/gatsby-wordpress-theme/issues"
+  },
+  "homepage": "https://github.com/imranhsayed/gatsby-wordpress-theme#readme"
+}
